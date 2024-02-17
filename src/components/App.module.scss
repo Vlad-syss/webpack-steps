@@ -1,0 +1,39 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 10px;
+}
+
+.wrapper {
+	width: 100%;
+	padding: 20px 10px;
+	text-align: center;
+
+	h1 {
+		text-align: center;
+	}
+
+	button {
+		padding: 10px 20px;
+		border: none;
+		font-size: 30px;
+		width: 80px;
+		margin: 5px;
+		color: #fff;
+		background-color: #1e41cb;
+		cursor: pointer;
+		transition: all 0.3s;
+		&:hover {
+			background-color: #0c2aa2;
+		}
+	}
+}
+
+a{
+	padding: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	&.active{
+		text-decoration: underline;
+	}
+}
